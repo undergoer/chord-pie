@@ -1,2 +1,4 @@
 # chord-pie
-chord diagram with a pie chart on the outer perimeter
+Produces a chord diagram with a pie chart on the outer perimeter, as seen below.
+
+![chord diagram][chord-uniform-colour.png]
