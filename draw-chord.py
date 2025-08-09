@@ -3,12 +3,6 @@ import numpy as np
 
 import pandas as pd
 
-file = 'Inventory Data Export 11 July 2025.xlsx'
-sheet = "Bilateral MRAs"
-
-df = pd.read_excel(file, sheet_name=sheet)
-print(len(df))
-
 # Initialize Circos sections
 sectors = {'Australia': 69, 'Brunei Darussalam': 1, 'Canada': 40, 'Papua New Guinea': 1, 'Hong Kong, China': 56,
            'Russia': 5, 'Singapore': 8, 'Japan': 6,
